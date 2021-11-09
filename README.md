@@ -8,5 +8,5 @@ https://medium.com/@kecandir/simple-momentum-tool-for-stock-selection-be69463c97
 2) DTW_USDTRYvsTCMB:
 This is a Dynamic Time Warping work that measures the minimum distance between the changes in USD/TRY cross currency vs Turkish Central Bank's (TCMB) policy decisions. 
 
-3) MultiModel_noVis:
-This is a multi factor stock selection algorithm that uses several methods covering both value and momentum investing fields. It utilizes Bloomberg's interal Jupyter Notebook environment called BQNT as well as its BQL query abilities. The data is pulled directly from Bloomberg without any API requests. As of the initial commit it lacks any kind of visualisation but interactive visualisations through Bloomberg will be added.
+3) FactorMultiModel:
+This is a multi factor stock selection algorithm that uses several methods covering both value and momentum investing fields. It utilizes Bloomberg's interal Jupyter Notebook environment called BQNT as well as its BQL query abilities. The data is pulled directly from Bloomberg without any API requests. The end results are output into two dataframes which are then visualized using an interactive scatter plot class.
