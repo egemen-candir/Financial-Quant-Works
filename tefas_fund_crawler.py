@@ -13,6 +13,8 @@ import datetime
 startDate = datetime.date(2020, 9, 1)
 endDate = datetime.date(2023, 11, 11)
 
+addDays = timedelta(days=30)
+
 tefas = Crawler()
 funds = ["KIE","KID","KIF","THD","KIA","KIB","ICF","ICD","ICC"]
 f_cols = ["code","date","price","market_cap"]
