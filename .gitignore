@@ -1,5 +1,6 @@
 # Windows metadata files
 *.Zone.Identifier
+*:Zone.Identifier
 
 
 AML_Works/HI-Small_Trans.csv
