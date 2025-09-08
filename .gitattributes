@@ -1,0 +1,14 @@
+# Force consistent line endings
+* text=auto
+
+# CSV files
+*.csv text eol=lf
+
+# Python scripts
+*.py text eol=lf
+
+# Notebooks
+*.ipynb text eol=lf
+
+# Ignore Zone.Identifier (Windows metadata)
+*Zone.Identifier -text
